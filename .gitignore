@@ -1,0 +1,23 @@
+# Dependências instaladas pelo Node.js
+node_modules/
+
+# Variáveis de ambiente e possíveis credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos gerados durante compilação ou testes
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Configurações locais do VS Code
+.vscode/
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
