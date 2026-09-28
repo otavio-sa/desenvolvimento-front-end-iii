@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de funcionários</title>
+    <script src="exercicio-04.js" defer></script>
+</head>
+
+<body>
+
+    <form id="form-funcionario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+
+        <label for="salario">Salário:</label>
+        <input type="number" id="salario">
+
+        <label for="cargo">Cargo:</label>
+        <select id="cargo">
+            <option value="">Selecione um cargo</option>
+            <option value="estagiario">Estagiário</option>
+            <option value="desenvolvedor">Desenvolvedor</option>
+            <option value="analista">Analista</option>
+            <option value="administrador">Administrador</option>
+            <option value="gerente">Gerente</option>
+        </select>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+</body>
+
+</html>
